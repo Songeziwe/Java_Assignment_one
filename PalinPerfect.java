@@ -27,6 +27,17 @@
       return true;
    }
    
+   private static void findPalinPerfect(String start, int end) {
+      start++;
+      
+      for(; Integer.parseInt(start) < end; start++) {
+         int temp = Integer.parseInt(start);
+         if(Math.sqrt(temp)) {
+         
+         }
+      }
+   }
+   
    public static void main(String[] args) {
       System.out.println(isPalindrome("373"));
    }
